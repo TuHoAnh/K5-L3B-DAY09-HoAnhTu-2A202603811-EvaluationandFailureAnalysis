@@ -2,7 +2,7 @@
 
 Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
-- **Run ID / eval set SHA:** baseline `E-swarm-20261118-1a9d`; fixed PR `E-fixed-20261118-1a9d`; seeded regression PR `E-seeded_regression-20261118-1a9d`. Eval set SHA: `1a9d664374a0`.
+- **Run ID / eval set SHA:** baseline `E-swarm-20261118-e9f6`; fixed PR `E-fixed-20261118-e9f6`; seeded regression PR `E-seeded_regression-20261118-e9f6`. Eval set SHA: `e9f6fdb66124`.
 - **Phiên bản:** eval set v1, metric spec 1.0, seeds 11/22/33/44/55; model backend MockLLM.
 - **Eval set:** 14 item × 5 seed, nguồn `lab8_public`; nhãn tách riêng trong `labels_v1.json`.
 - **Metric baseline:** `approval_bypass=0`, `secret_leak=0`, `db_fact_kept=0.9857`, `refund_amount_correct=0.9857`, `pass_rate=0.9857`, `reply_amount_matches_ledger=1.0`, `pass_5=0.9286`, `cost_per_success=49.567` simulated VND.

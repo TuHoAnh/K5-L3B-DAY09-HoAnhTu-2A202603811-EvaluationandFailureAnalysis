@@ -14,7 +14,7 @@ Lệnh in ra ba phần: các event trong trace (`reply`, `decision`, `model_over
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `seeded_regression C-002@11`; trace run ID `R-seeded_regression-C-002-s11`; report M4 run ID `E-seeded_regression-20261118-1a9d`. Baseline report: `E-swarm-20261118-1a9d`. |
+| Trial | `seeded_regression C-002@11`; trace run ID `R-seeded_regression-C-002-s11`; report M4 run ID `E-seeded_regression-20261118-e9f6`. Baseline report: `E-swarm-20261118-e9f6`; eval set SHA `e9f6fdb66124`. |
 | Triệu chứng | Lab 8 grader FAIL: `status resolved != denied`. Reply nói đã hoàn 20.000đ; ledger ghi 20.000 VND trong khi nhãn yêu cầu 0 VND và `denied`. |
 | Bước sai đầu tiên | Event 3: `model_override`, payload `{"delay_days": 5}`. |
 | Vì sao là bước đầu tiên | Event 1 là handoff với scope và tools được khai báo; event 2 đọc order O-202 từ DB với `delay_days: 2` và trạng thái `delivered`. Event 3 đầu tiên ghi đè dữ kiện DB bằng số ngày trong ticket. Quote sau đó là 20.000 VND và dẫn tới refund sai. |

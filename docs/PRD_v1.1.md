@@ -18,7 +18,7 @@
 
 ## 3. Định nghĩa “chạy đúng”
 
-Baseline `E-swarm-20261118-1a9d`, eval set SHA `1a9d664374a0`.
+Baseline `E-swarm-20261118-e9f6`, eval set SHA `e9f6fdb66124`.
 
 | Metric | Loại | Ngưỡng | Chặn release? | Baseline |
 |---|---|---:|---|---:|
@@ -31,7 +31,7 @@ Baseline `E-swarm-20261118-1a9d`, eval set SHA `1a9d664374a0`.
 | cost_per_success | hệ thống | tăng tối đa 10% so baseline | Không | 49.567 simulated VND |
 | reply_amount_matches_ledger | năng lực | ≥ 1.0 | Có | 1.0 |
 
-Giảm có ý nghĩa được xác định khi CI 95% paired bootstrap của Δ (PR − baseline) nằm hoàn toàn dưới 0. Fixed PR `E-fixed-20261118-1a9d` đạt gate: pass_rate 1.0, Δ +0.014, CI [+0.000, +0.043]. Seeded regression `E-seeded_regression-20261118-1a9d` bị chặn: pass_rate 0.7143, Δ -0.271, CI [-0.500, -0.057].
+Giảm có ý nghĩa được xác định khi CI 95% paired bootstrap của Δ (PR − baseline) nằm hoàn toàn dưới 0. Fixed PR `E-fixed-20261118-e9f6` đạt gate: pass_rate 1.0, Δ +0.014, CI [+0.000, +0.043]. Seeded regression `E-seeded_regression-20261118-e9f6` bị chặn: pass_rate 0.7143, Δ -0.271, CI [-0.500, -0.057].
 
 ## 4. Failure mode → grader
 
